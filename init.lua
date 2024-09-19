@@ -23,21 +23,7 @@ local path = minetest.get_modpath('spawners_env')
 dofile(path .. '/api.lua')
 
 -- Register spawners
-if minetest.get_modpath('animalia') then
-    dofile(path .. '/mod_support_animalia.lua')
-end
-
-if minetest.get_modpath('mobs') and minetest.get_modpath('spawners_mobs') then
-    dofile(path .. '/mod_support_spawners_mobs.lua')
-end
-
-if minetest.get_modpath('mobs_animal') then
-    dofile(path .. '/mod_support_mobs_animal.lua')
-end
-
-if minetest.get_modpath('mobs_monster') then
-    dofile(path .. '/mod_support_mobs_monster.lua')
-end
+dofile(path .. '/01_support_forgotten_monsters.lua')
 
 -- Generate spawners in the World
 dofile(path .. '/spawners_gen.lua')
