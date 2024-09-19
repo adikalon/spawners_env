@@ -28,6 +28,7 @@ dofile(path .. '/02_support_livingcavesmobs.lua')
 dofile(path .. '/03_support_mobs_mc.lua')
 dofile(path .. '/04_support_mobs_monster.lua')
 dofile(path .. '/05_support_mobs_skeletons.lua')
+dofile(path .. '/06_support_zombies4test.lua')
 
 -- Generate spawners in the World
 dofile(path .. '/spawners_gen.lua')

@@ -14,7 +14,7 @@ if (minetest.registered_items['mobs_monster:spider']) then
         dummy_size = { x = 0.4, y = 0.4 },
         dummy_offset = 0.1,
         dummy_mesh = 'mobs_spider.b3d',
-        dummy_texture = { 'mobs_spider_orange.png' },
+        dummy_texture = {'mobs_spider_orange.png'},
         night_only = false,
         sound_custom = 'mobs_spider_neutral',
     })
@@ -25,7 +25,7 @@ if (minetest.registered_items['mobs_monster:stone_monster']) then
         dummy_size = { x = 0.5, y = 0.5 },
         dummy_offset = 0.05,
         dummy_mesh = 'mobs_stone_monster.b3d',
-        dummy_texture = { 'mobs_stone_monster.png' },
+        dummy_texture = {'mobs_stone_monster.png'},
         night_only = false,
         sound_custom = 'mobs_stonemonster_neutral',
     })
