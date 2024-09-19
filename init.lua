@@ -25,6 +25,7 @@ dofile(path .. '/api.lua')
 -- Register spawners
 dofile(path .. '/01_support_forgotten_monsters.lua')
 dofile(path .. '/02_support_livingcavesmobs.lua')
+dofile(path .. '/03_support_mobs_mc.lua')
 
 -- Generate spawners in the World
 dofile(path .. '/spawners_gen.lua')
